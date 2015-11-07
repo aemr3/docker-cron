@@ -1,4 +1,4 @@
 docker-cron
 ===========
 
-Docker with mysql & curl support
+Cron with php & mysql & curl support
