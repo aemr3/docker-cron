@@ -3,7 +3,7 @@ MAINTAINER Emre <e@emre.pm>
 
 ENV DEBIAN_FRONTEND noninteractive
 
-RUN apt-get update -q -q && apt-get install mysql-client curl php5-cli php5-curl php5-mysql vim --yes --force-yes
+RUN apt-get update -q -q && apt-get install cron mysql-client curl php-cli php-curl php-mysql php-soap php-redis vim --yes --force-yes
 
 RUN apt-get clean && rm -rf /tmp/* /var/tmp/* && rm -rf /var/lib/apt/lists/*
 
